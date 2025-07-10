@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CryonixApplication {
 
 	public static void main(String[] args) {
-		System.out.println("Mayank's app");
+		System.out.println("Cryonix Backend");
 		SpringApplication.run(CryonixApplication.class, args);
 	}
 
