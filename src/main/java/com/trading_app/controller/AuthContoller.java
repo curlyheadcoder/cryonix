@@ -20,6 +20,7 @@ public class AuthContoller {
     public ResponseEntity<User> register(@RequestBody User user){
         User newUser = new User();
         newUser.setEmail(user.getEmail());
+        newUser.setFullName(user.getFullName());
         newUser.setPassword(user.getPassword());
 
         User savedUser = userRepository.save(newUser);
